@@ -1,4 +1,10 @@
-# Horizon
+# Horizon Loader
+
+```lua
+loadstring(game:HttpGet("https://raw.githubusercontent.com/fantaloverzaa/Horizon/refs/heads/main/Main_loader.lua"))()
+```
+# What is Horizon?
+
 Is a script hub for Roblox.
 
 It used to be a script name called [Xas Hub](https://github.com/fantaloverzaa/Xashub) but because I lost my pc because it gotten broken I am currently working on buying a new pc and starting a new project called "Horizon"
