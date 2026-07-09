@@ -1,4 +1,4 @@
-![Image alt](https://github.com/fantaloverzaa/Horizon/blob/main/Images/horizon_beta_wide_tiny.png)
+![Image alt](https://imgflip.com/gif/aw7htb)
 
 # Horizon Loader
 
