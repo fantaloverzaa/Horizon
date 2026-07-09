@@ -1,0 +1,2 @@
+local word = "Coming soon script kiddies on September 23 2026"
+print(word)
