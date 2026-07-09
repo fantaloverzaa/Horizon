@@ -1,4 +1,4 @@
-https://github.com/fantaloverzaa/Horizon/blob/main/Images/file_00000000bb5471faa4f480f99cf6d446.png
+![Image alt](https://github.com/fantaloverzaa/Horizon/blob/main/Images/file_00000000bb5471faa4f480f99cf6d446.png)
 
 # Horizon Loader
 
