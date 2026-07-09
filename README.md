@@ -1,21 +1,33 @@
-![Image alt](https://github.com/fantaloverzaa/Horizon/blob/main/Images/lv_0_20260709170325.mp4)
-
 # Horizon Loader
 
 ```lua
 loadstring(game:HttpGet("https://raw.githubusercontent.com/fantaloverzaa/Horizon/refs/heads/main/Main_loader.lua"))()
 ```
-# What is Horizon?
 
-Is a script hub for Roblox.
+## What is Horizon?
 
-It used to be a script name called [Xas Hub](https://github.com/fantaloverzaa/Xashub) but because I lost my pc because it gotten broken I am currently working on buying a new pc and starting a new project called "Horizon"
+Horizon is a script hub for Roblox.
 
-On September 2th 2026 xas hub will be discontinued and shut down
+It's the successor to my previous project, **Xas Hub**. After my PC broke, I had to pause development while saving up for a new one. Once I'm back up and running, I'll be putting that time into this new project: **Horizon**.
 
-Horizon is made by me
-Discord is coming soon once I am done with Horizon and releasing it will also released the discord server
+> ⚠️ **Xas Hub will be discontinued and shut down on September 2, 2026.**
 
-# Supported games
-- Fishing simulator
-and many games that I want and the people who support Horizon
+Horizon is developed and maintained solely by me.
+
+A Discord server will be released once Horizon is ready to launch.
+
+## Supported Games
+
+- Fishing Simulator
+- More games will be added based on demand and community support
+
+## Roadmap
+
+- [ ] Finish core Horizon release
+- [ ] Launch Discord server
+- [ ] Expand supported games list
+
+## Notes
+
+- This project is actively in development — expect frequent updates.
+- Feedback and game suggestions are welcome once the Discord is live.
