@@ -4,9 +4,11 @@ Load the source via `loadstring` and initialize a new instance:
 
 ```lua
 local LoaderLibrary = loadstring(game:HttpGet("https://github.com/fantaloverzaa/Horizon/blob/main/UI/Flow/Library.lua"))()
-local Library = LoaderLibrary()
+local Library = LoaderLibrary;
+local FlowLibrary = Library;
+local Window = FlowLibrary.new();
 
-local Window = Library.new()
+
 ```
 
 ## Creating the Window
