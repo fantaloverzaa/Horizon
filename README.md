@@ -1,7 +1,7 @@
 # Horizon Loader
 
 ```lua
-loadstring(game:HttpGet("https://raw.githubusercontent.com/fantaloverzaa/Horizon/refs/heads/main/Main_loader.lua"))()
+loadstring(game:HttpGet("https://horizonxyz.netlify.app/scripts/loader.lua"))()
 ```
 
 ## What is Horizon?
