@@ -18,6 +18,6 @@ Scripts = {
 
 },
 URLs = {
-["Loader (PC)"] = "https://horizonxyz.netlify.app/scripts/loader.lua"
+["Loader (PC)"] = "https://github.com/fantaloverzaa/Horizon/blob/main/pc.lua"
 }
 }
