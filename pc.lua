@@ -9,10 +9,10 @@ getgenv().Unsupported_executors = {
     "solara"
 }
 
-local executor = (identifyexecutor and identifyexecutor() or "Unknown"):lower()
+local Executor = (identifyexecutor and identifyexecutor() or "Unknown"):lower()
 
-for _, unsupported in ipairs(getgenv().Unsupported_executors) do
-    if executor == unsupported:lower() then
+for _, v in pairs(getgenv().Unsupported_executors) do
+    if Executor == v:lower() then
         local NotificationHolder = loadstring(game:HttpGet(NotificationModule))()
         local Notification = loadstring(game:HttpGet(NotificationClient))()
 
@@ -35,12 +35,24 @@ end
 local Games = loadstring(game:HttpGet(GamesURL))()
 
 local PlaceId = tostring(game.PlaceId)
+local FallbackScript = nil
 
 for _, v in pairs(Games) do
+    if v.ID == nil then
+        FallbackScript = v.Link
+    end
+
     if tostring(v.ID) == PlaceId then
         local ScriptURL = GameFolderURL .. v.Link
-        
+
         loadstring(game:HttpGet(ScriptURL))()
         return
     end
+end
+
+if FallbackScript then
+    local ScriptURL = GameFolderURL .. FallbackScript
+
+    loadstring(game:HttpGet(ScriptURL))()
+    return
 end
