@@ -6,5 +6,9 @@ return {
     {
         ID = nil,
         Link = "showcase.lua"
+    },
+    {
+        ID = "3956818381",
+        Link = "Ninjas_l.lua"
     }
 }
